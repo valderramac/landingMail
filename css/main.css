@@ -1,4 +1,14 @@
+footer{
+	color: white;
+	background-color: #181E25;
+	padding-left: 40px;
+    padding-right: 40px;
+}
 
+
+body{
+	/*background-color: #383533;*/
+}
 
 .barColor{
 	color: #383533 !important;
@@ -6,25 +16,48 @@
 }
 
 
+.fontColor{
+	color: #FF6D00;
+}
+
 .btn-warning {
     color: #ffffff;
-    background-color: inherit;
-    border-color: #ffc107;
+    /*background-color: inherit;*/
+    border-color: #FF6D00;
+}
+
+.btn-outline-warning{
+	border-color: #FF6D00 !important;
+	color:  #FF6D00 !important;
+}
+
+.btn-outline-warning:hover{
+
+	background-color: #FF6D00 !important;
+	color:  #FFffff !important;
+
 }
 
 .jumbotron{
+	padding-left: 8rem !important;
 	background-image: url(../img/heroBannerImg.jpg);
-	 height: 444px;
-	 border-radius: 0;
+	height: 444px;
+	border-radius: 0;
 }
 
 
 @media (min-width: 1200px){
 .container {
-    max-width: 100%;
+    /*max-width: 100%;*/
         padding-right: 0px;
     padding-left: 0px;
 }
+.jumboConteiner{
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 
 }
 
@@ -49,7 +82,7 @@
 	margin: 74px auto 10px;
     color: white;
     width: 37px;
-    background-color: orange;
+    background-color: #FF6D00;
     border-radius: 50%;
 }
 
@@ -58,7 +91,7 @@
 	margin: 0px auto 10px;
     color: white;
     width: 37px;
-    background-color: orange;
+    background-color: #FF6D00;
     border-radius: 50%;
 }
 
@@ -149,17 +182,58 @@
 }
 
 
+.comilla{
+	margin-bottom: 7px;
+}
+
 
 .album{
-	width: 80%;
+	/*width: 80%;*/
 	margin: 0 auto;
-	background-color: white !important;
+	background-color: #fafafa !important;
 }
 
 
 
 
+.card{
+	border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: 0 !important;
+    max-width: 300px;
+}
 
+.card>hr {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.topMarginator{
+	margin-top: 30px;
+}
+
+
+
+.ctaToghether{	
+	color: white;
+    height: 290px;
+	text-align: center;
+    margin-bottom: 0rem;
+    background-color: #e9ecef;
+    border-radius: .0rem;
+    background-image: none;
+    background-color: #FF6D00;
+    padding-left: inherit !important;
+}
+
+.ctaToghether>.display-4{
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.btn-light{
+	color: #FF6D00;
+}
 
 
 
